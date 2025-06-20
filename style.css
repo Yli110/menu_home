@@ -315,9 +315,9 @@ a {
     padding: 20px;
     border-radius: 4px;
     width: 50%;
-    height: 55%;
+    height: 60%;
     max-width: 300px;
-	min-height: 350px;
+    min-height: 350px;
     box-shadow: 5px 5px 8px 8px #0D47A1;
     animation: modalopen 0.5s;
 }
