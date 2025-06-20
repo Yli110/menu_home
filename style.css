@@ -311,13 +311,9 @@ a {
 .modal-content {
     position: relative;
     background-color: #BBDEFB;
-    margin: 10% auto;
+    margin: 10% 15% auto;
     padding: 20px;
     border-radius: 4px;
-    width: 50%;
-    height: 60%;
-    max-width: 300px;
-    min-height: 350px;
     box-shadow: 5px 5px 8px 8px #0D47A1;
     animation: modalopen 0.5s;
 }
