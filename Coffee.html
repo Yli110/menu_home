@@ -44,105 +44,192 @@
 </div>
 
 <div class="cards">
-    <div class="card">
-    <!-- Верхняя часть -->
+    <div id="Dalgone" class="card">
+		<!-- Верхняя часть -->
         <div class="card__top">
             <!-- Изображение-ссылка товара -->
-            <a href="#" class="card__image">
-            <img src="coffee\dalgone.jpg" />
-            </a>
+            <a class="card__image"><img src="coffee\dalgone.jpg" /></a>
         </div>
             <!-- Нижняя часть -->
         <div class="card__bottom">
             <!-- Ссылка-название товара -->
-            <a href="#" class="card__title"><b>Дальгоне</b><br>Ингредиенты:<br>Кофе, сахар, молоко</a>
+            <a class="card__title"><b>Дальгоне</b><br>Ингредиенты:<br>Кофе, сахар, молоко</a>
         </div>
+		<div id="Dalgone_ID" class="modal">
+			<div class="modal-content">
+				<div class="popup__top">
+					<a class="popup_image"><img src="coffee\dalgone.jpg" /></a>
+				</div>
+				<div class="card__bottom">
+					<span class="close" onclick="closeModal(Dalgone_ID)"></span>
+					<h2>Кофе "Дальгоне"</h2>
+					<p>Содержимое всплывающего окна...</p>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
     </div>
-	<div class="card">
+	<div id="Latte" class="card">
     <!-- Верхняя часть -->
         <div class="card__top">
             <!-- Изображение-ссылка товара -->
-            <a href="#" class="card__image">
-            <img src="coffee\latte.jpg" />
-            </a>
+            <a class="card__image"><img src="coffee\latte.jpg" /></a>
         </div>
             <!-- Нижняя часть -->
         <div class="card__bottom">
             <!-- Ссылка-название товара -->
-            <a href="#" class="card__title"><b>Латте</b><br>Ингредиенты:<br>Кофе, сахар, молоко<br>Можно добавить сироп</a>
+            <a class="card__title"><b>Латте</b><br>Ингредиенты:<br>Кофе, сахар, молоко<br>Можно добавить сироп</a>
         </div>
+		<div id="Latte_ID" class="modal">
+			<div class="modal-content">
+				<div class="popup__top">
+					<a class="popup_image"><img src="coffee\latte.jpg" /></a>
+				</div>
+				<div class="card__bottom">
+					<span class="close" onclick="closeModal('Latte_ID')"></span>
+					<h2>Кофе "Латте"</h2>
+					<p>Содержимое всплывающего окна...</p>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
     </div>
-	<div class="card">
+	<div id="Capuch" class="card">
     <!-- Верхняя часть -->
         <div class="card__top">
             <!-- Изображение-ссылка товара -->
-            <a href="#" class="card__image">
+            <a class="card__image">
             <img src="coffee\capuchino.jpg" />
             </a>
         </div>
             <!-- Нижняя часть -->
         <div class="card__bottom">
             <!-- Ссылка-название товара -->
-            <a href="#" class="card__title"><b>Капучино</b><br>Ингредиенты:<br>Кофе, сахар, молоко<br>Можно добавить сироп</a>
+            <a class="card__title"><b>Капучино</b><br>Ингредиенты:<br>Кофе, сахар, молоко<br>Можно добавить сироп</a>
         </div>
+		<div id="Capuch_ID" class="modal">
+			<div class="modal-content">
+				<div class="popup__top">
+					<a class="popup_image"><img src="coffee\capuchino.jpg" /></a>
+				</div>
+				<div class="card__bottom">
+					<span class="close" onclick="closeModal('Capuch_ID')"></span>
+					<h2>Кофе "Капучино"</h2>
+					<p>Содержимое всплывающего окна...</p>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
     </div>
-	<div class="card">
+	<div id="Mokko" class="card">
     <!-- Верхняя часть -->
         <div class="card__top">
             <!-- Изображение-ссылка товара -->
-            <a href="#" class="card__image">
+            <a class="card__image">
             <img src="coffee\mokko.jpg" />
             </a>
         </div>
             <!-- Нижняя часть -->
         <div class="card__bottom">
             <!-- Ссылка-название товара -->
-            <a href="#" class="card__title"><b>Мокко</b><br>Ингредиенты:<br>Кофе, сахар, молоко<br>Можно добавить сироп</a>
+            <a class="card__title"><b>Мокко</b><br>Ингредиенты:<br>Кофе, сахар, молоко<br>Можно добавить сироп</a>
         </div>
+		<div id="Mokko_ID" class="modal">
+			<div class="modal-content">
+				<div class="popup__top">
+					<a class="popup_image"><img src="coffee\mokko.jpg" /></a>
+				</div>
+				<div class="card__bottom">
+					<span class="close" onclick="closeModal('Mokko_ID')"></span>
+					<h2>Кофе "Мокко"</h2>
+					<p>Содержимое всплывающего окна...</p>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
     </div>
-	<div class="card">
+	<div id="Raf" class="card">
     <!-- Верхняя часть -->
         <div class="card__top">
             <!-- Изображение-ссылка товара -->
-            <a href="#" class="card__image">
+            <a class="card__image">
             <img src="coffee\raf.jpg" />
             </a>
         </div>
             <!-- Нижняя часть -->
         <div class="card__bottom">
             <!-- Ссылка-название товара -->
-            <a href="#" class="card__title"><b>Раф</b><br>Ингредиенты:<br>Кофе, сахар, молоко, сироп на выбор</a>
+            <a class="card__title"><b>Раф</b><br>Ингредиенты:<br>Кофе, сахар, молоко, сироп на выбор</a>
         </div>
+		<div id="Raf_ID" class="modal">
+			<div class="modal-content">
+				<div class="popup__top">
+					<a class="popup_image"><img src="coffee\raf.jpg" /></a>
+				</div>
+				<div class="card__bottom">
+					<span class="close" onclick="closeModal('Raf_ID')"></span>
+					<h2>Кофе "Раф"</h2>
+					<p>Содержимое всплывающего окна...</p>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
     </div>
-	<div class="card">
+	<div id="Cap_cos" class="card">
     <!-- Верхняя часть -->
         <div class="card__top">
             <!-- Изображение-ссылка товара -->
-            <a href="#" class="card__image">
+            <a class="card__image">
             <img src="coffee\cap_cos.jpg" />
             </a>
         </div>
             <!-- Нижняя часть -->
         <div class="card__bottom">
             <!-- Ссылка-название товара -->
-            <a href="#" class="card__title"><b>Кокосовый капучино</b><br>Ингредиенты:<br>Кофе, ванильный сахар, кокосовое молоко</a>
+            <a class="card__title"><b>Кокосовый капучино</b><br>Ингредиенты:<br>Кофе, ванильный сахар, кокосовое молоко</a>
         </div>
+		<div id="Cap_cos_ID" class="modal">
+			<div class="modal-content">
+				<div class="popup__top">
+					<a class="popup_image"><img src="coffee\cap_cos.jpg" /></a>
+				</div>
+				<div class="card__bottom">
+					<span class="close" onclick="closeModal('Cap_cos_ID')"></span>
+					<h2>Кофе "Кокосовый капучино"</h2>
+					<p>Содержимое всплывающего окна...</p>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
     </div>
-	<div class="card">
+	<div id="Bambl" class="card">
     <!-- Верхняя часть -->
         <div class="card__top">
             <!-- Изображение-ссылка товара -->
-            <a href="#" class="card__image">
-            <img src="coffee\bambl.jpg" />
-            </a>
+            <a class="card__image"><img src="coffee\bambl.jpg" /></a>
         </div>
             <!-- Нижняя часть -->
         <div class="card__bottom">
             <!-- Ссылка-название товара -->
-            <a href="#" class="card__title"><b>Бамбл</b><br>Ингредиенты:<br>Кофе, апельсиновый сок, лед<br>Можно добавить сироп</a>
+            <a class="card__title"><b>Бамбл</b><br>Ингредиенты:<br>Кофе, апельсиновый сок, лед<br>Можно добавить сироп</a>
         </div>
+		<div id="Bambl_ID" class="modal">
+			<div class="modal-content">
+				<div class="popup__top">
+					<a class="popup_image"><img src="coffee\bambl.jpg" /></a>
+				</div>
+				<div class="card__bottom">
+					<span class="close" onclick="closeModal('Bambl_ID')"></span>
+					<h2>Кофе "Бамбл"</h2>
+					<p>Содержимое всплывающего окна...</p>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
     </div>
 </div>
+
+
 
 </body>
 </html>
