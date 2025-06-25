@@ -1,3 +1,4 @@
+
 body {
 	background: #BBDEFB
 }
@@ -18,8 +19,6 @@ a {
 	text-decoration: none;
 	color: white;
 	border-radius: .25rem;
-	text-align: center;
-	display: inline-block;
 	transition: all .3s;
 }
 
@@ -125,6 +124,11 @@ a {
 	border-radius: .5rem;
 }
 
+.breweries_f > a {
+	text-align: center;
+	display: inline-block;
+}
+
 .breweries_a{
 	padding: 2rem;
 }
@@ -166,16 +170,47 @@ a {
 	font-size: 1.25rem;
 }
 
-.breweries_li > p {
+.breweries_li > a {
+	display: inline-block;
+}
+
+.breweries_li > a > figure {
+	max-height: 220px;
+	overflow: hidden;
+	border-top-left-radius: .5rem;
+	border-top-right-radius: .5rem;
+	position: relative;
+}
+
+.breweries_li > a > figure > img {
+	width: 100%;
+}
+
+.breweries_li > a > figure > figcaption {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0,0,0,.7);
+	width: 100%;
+}
+
+.breweries_li > a > figure > figcaption > h3 {
+	color: white;
+	padding: .75rem;
+	font-size: 1.25rem;
+}
+
+.breweries_li > a > p {
 	font-size: 1rem;
 	line-height: 1.5;
 	padding: 1rem .75rem;
 	color: #fff;
 }
 
-.breweries_li > a {
-	padding: .5rem 1rem;
-	margin: .5rem;
+.breweries_li > p {
+	font-size: 1rem;
+	line-height: 1.5;
+	padding: 1rem .75rem;
+	color: #fff;
 }
 
 .akeconsa-udaneles{
