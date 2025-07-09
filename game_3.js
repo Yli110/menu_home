@@ -7,6 +7,9 @@ function closeModal(modalId) {
 document.getElementById("Podzem_dragon").addEventListener("click", function() {
     openModal('podzem_dragon_id');
 });
+document.getElementById("Podzem_car").addEventListener("click", function() {
+    openModal('podzem_car_id');
+});
 document.getElementById("Mafia").addEventListener("click", function() {
     openModal('mafia_id');
 });
