@@ -10,6 +10,9 @@ document.getElementById("Podzem_dragon").addEventListener("click", function() {
 document.getElementById("Podzem_car").addEventListener("click", function() {
     openModal('podzem_car_id');
 });
+document.getElementById("Podzem_yar").addEventListener("click", function() {
+    openModal('podzem_yar_id');
+});
 document.getElementById("Mafia").addEventListener("click", function() {
     openModal('mafia_id');
 });
