@@ -16,8 +16,8 @@ document.getElementById("Mokko").addEventListener("click", function() {
 document.getElementById("Raf").addEventListener("click", function() {
     openModal('Raf_ID');
 });
-document.getElementById("Cap_cos").addEventListener("click", function() {
-    openModal('Cap_cos_ID');
+document.getElementById("Love").addEventListener("click", function() {
+    openModal('Love_ID');
 });
 document.getElementById("Bambl").addEventListener("click", function() {
     openModal('Bambl_ID');
@@ -30,3 +30,4 @@ window.onclick = function(event) {
       event.target.style.display = "none";
     }
 }
+
