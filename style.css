@@ -67,6 +67,15 @@ a {
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.hero_l {
+	background: url('library.jpg') center;
+	background-size: cover;
+	padding: 4rem 2rem;
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
 .hero > * {
 	color: black;
 }
@@ -388,3 +397,4 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
