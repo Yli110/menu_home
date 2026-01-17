@@ -13,14 +13,26 @@ document.getElementById("Podzem_car").addEventListener("click", function() {
 document.getElementById("Podzem_yar").addEventListener("click", function() {
     openModal('podzem_yar_id');
 });
-document.getElementById("Mafia").addEventListener("click", function() {
-    openModal('mafia_id');
+document.getElementById("Podzemelie_5").addEventListener("click", function() {
+    openModal('Podzemelie_5_id');
 });
-document.getElementById("Poker").addEventListener("click", function() {
-    openModal('poker_id');
+document.getElementById("Altushka").addEventListener("click", function() {
+    openModal('Altushka_id');
 });
-document.getElementById("Carti").addEventListener("click", function() {
-    openModal('carti_id');
+document.getElementById("Cupi_cat").addEventListener("click", function() {
+    openModal('Cupi_cat_id');
+});
+document.getElementById("Ne_budi_cat").addEventListener("click", function() {
+    openModal('Ne_budi_cat_id');
+});
+document.getElementById("Kotem").addEventListener("click", function() {
+    openModal('Kotem_id');
+});
+document.getElementById("Memenomika").addEventListener("click", function() {
+    openModal('Memenomika_id');
+});
+document.getElementById("Oficce_cring").addEventListener("click", function() {
+    openModal('Oficce_cring_id');
 });
 window.onclick = function(event) {
     if (event.target.className === 'modal') {
